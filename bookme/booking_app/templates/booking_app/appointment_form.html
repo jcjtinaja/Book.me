@@ -1,0 +1,67 @@
+{% extends "booking_app/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block header %}
+    <script src="https://kit.fontawesome.com/42d1a753c3.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+{% endblock %}
+
+{% block title %}
+    {{ titles.create }}
+{% endblock title %}
+
+{% block content %}
+    <div style="width: 100%;">
+        <div class="content-section" style="width: 58%; float:left;">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    {% if request.path == '/booking/create/' %}
+                        <legend class="border-bottom mb-4">Create New Appointment</legend>
+                    {% else %}
+                        <legend class="border-bottom mb-4">Edit Appointment</legend>
+                    {% endif %}
+                    <div class="form-group col-md-11 mb-2">
+                        {{ form.date|as_crispy_field }}
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-11 mb-2">
+                        {{ form.time_in|as_crispy_field }}
+                        </div>
+                        <div class="form-group col-11 mb-2">
+                        {{ form.time_out|as_crispy_field }}
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-11 mb-2">
+                        {{ form.first_name|as_crispy_field }}
+                        </div>
+                        <div class="form-group col-11 mb-2">
+                        {{ form.last_name|as_crispy_field }}
+                        </div>
+                    </div>
+                    <div class="form-group col-md-11 mb-2">
+                        {{ form.comment|as_crispy_field }}
+                    </div>
+                </fieldset>
+                <div class="form-group border-top pt-2">
+                    {% if request.path == '/booking/create/' %}
+                        <button class="btn btn-outline-primary" type="submit">Create</button>
+                    {% else %}
+                        <button class="btn btn-outline-primary" type="submit">Update</button>
+                    {% endif %}
+                    <a class="btn btn-outline-secondary" href="{% url 'booking-list' %}">Cancel</a>
+                </div>
+            </form>
+        </div>
+        <div style="width:39%; float:right;">
+            <h4 style="color:#808080">In creating an appointment: </h4>
+            <ul class="fa-ul">
+                <li style="color:#808080"><i class="fa-li fas fa-angle-right"></i>Date must fall on Monday to Saturday</li>
+                <li style="color:#808080"><i class="fa-li fas fa-angle-right"></i>Time in must not be earlier than 9:00 AM</li>
+                <li style="color:#808080"><i class="fa-li fas fa-angle-right"></i>Time out must not be later than 5:00 PM</li>
+                <li style="color:#808080"><i class="fa-li fas fa-angle-right"></i>Time in must be earlier than time out</li>
+              </ul>
+        </div>
+    </div>
+{% endblock content %}

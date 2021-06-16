@@ -1,0 +1,41 @@
+{% extends "booking_app/base.html" %}
+
+{% block title %}
+    {{ titles.create }}
+{% endblock title %}
+
+{% block content %}
+    <div class ="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Delete {{ object.first_name }} {{ object.last_name }}'s Appointment</legend>
+                <p>Are you sure you want to delete the following appointment?</p>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Date</th>
+                            <th>Start</th>
+                            <th>End</th>
+                            <th>Date Created</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ object.first_name}} {{ object.last_name }}</td>
+                            <td>{{ object.date }}</td>
+                            <td>{{ object.time_in }}</td>
+                            <td>{{ object.time_out }}</td>
+                            <td>{{ object.date_created }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-danger" type="submit">Delete</button>
+                <a class="btn btn-outline-secondary" href="{% url 'booking-list' %}">Cancel</a>
+            </div>
+        </form>
+    </div>
+{% endblock content %}

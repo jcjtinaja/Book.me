@@ -1,0 +1,52 @@
+{% extends "booking_app/base.html" %}
+
+{% block title %}
+    {{ titles.create }}
+{% endblock title %}
+
+{% block content %}
+    <div class ="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">{{ object.first_name }} {{ object.last_name }}'s Appointment</legend>
+                <table class="table table-hover">
+                    <tr>
+                        <th style="width: 20%;">Full Name:</th>
+                        <td>{{ object.first_name }} {{ object.last_name }}</td>
+                    </tr>
+                    <tr>
+                        <th>Date:</th>
+                        <td>{{ object.date }}</td>
+                    </tr>
+                    <tr>
+                        <th>Time in:</th>
+                        <td>{{ object.time_in }}</td>
+                    </tr>
+                    <tr>
+                        <th>Time out:</th>
+                        <td>{{ object.time_out }}</td>
+                    </tr>
+                    <tr>
+                        <th>Comment</th>
+                        <td>{{ object.comment }}</td>
+                    </tr>
+                    <tr>
+                        <th>Date Created: </th>
+                        <td>{{ object.date_created }}</td>
+                    </tr>
+                    <tr>
+                        <th>Created by: </th>
+                        <td>{{ object.user }}</td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            <div class="form-group">
+                <a class="btn btn-outline-primary" href="{% url 'booking-update' object.id %}">Edit</a>
+                <a class="btn btn-outline-danger" href="{% url 'booking-delete' object.id %}">Delete</a>
+                <a class="btn btn-outline-secondary" href="{% url 'booking-list' %}">Cancel</a>
+            </div>
+        </form>
+    </div>
+{% endblock content %}

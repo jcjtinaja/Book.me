@@ -1,0 +1,74 @@
+{% extends "booking_app/base.html" %}
+{% load template_tags %}
+{% load static %}
+
+{% block header %}
+    <script src="https://kit.fontawesome.com/42d1a753c3.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+{% endblock %}
+
+{% block title %}
+    {{ titles }}
+{% endblock title %}
+
+{% block content %}
+    <script src="{% static 'booking_app/main.js' %}"></script>
+    <div class="content-section">
+        <legend class="border-bottom mb-3 pb-2">
+            Search between Dates
+        </legend>
+        <form method="POST">
+            {% csrf_token %}
+            <div style="width: 100%;">
+                <div style="width: 30%; float:left;">Start Date:
+                    <div class="form-group has-search col-sm-4 col-md-4 col-lg-4 pb-2 mt-2 mb-2" style="width: 96%; float:left;">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input name="start_date" id="filterAny" type="date" class="form-control" placeholder="Start Date">
+                    </div>
+                </div>
+                <div style="width: 30%; float:left;">End Date:
+                    <div class="form-group has-search col-sm-4 col-md-4 col-lg-4 pb-2 mt-2 mb-2" style="width: 96%;">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input name="end_date" id="filterAny" type="date" class="form-control" placeholder="Start Date">
+                    </div>
+                </div>
+                <div style="float:left;"><br>    
+                    <div class="form-group has-search pb-2 mt-2 mb-2" style="width: 100%;">
+                        <button name="search" type="submit" class="btn btn-outline-primary" style="float:right"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div style="float:left; margin-left:10px;"><br>    
+                    <div class="form-group has-search pb-2 mt-2 mb-2" style="width: 100%;">
+                        <button type="submit" class="btn btn-outline-secondary" style="float:right">Clear</a>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-hover" id="appointmentsTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Start</th>
+                        <th>End</th>
+                        <th>Full Name</th>
+                        <th>Manage</th>
+                    </tr>
+                </thead>
+                <tbody id="body">
+                    {% for booking in data %}
+                        <tr height="60px"> 
+                            <td style="padding-top:16px;">{{ booking.date }}</td>
+                            <td style="padding-top:16px;">{{ booking.time_in }}</td>
+                            <td style="padding-top:16px;">{{ booking.time_out }}</td>
+                            <td style="padding-top:16px;">{{ booking.first_name}} {{ booking.last_name }}</td>
+                            <td style="padding-top:16px; text-align:left;"> 
+                                <a style="padding-left:0px;" href="{% url 'booking-detail' booking.id %}"><i class="fas fa-link"></i></a>
+                                <a style="padding-left:20px; padding-right:20px;" href="{% url 'booking-update' booking.id %}"><i class="fas fa-edit"></i></a>
+                                <a style="padding-left:0px;;"href="{% url 'booking-delete' booking.id %}"><i class="fas fa-trash"></i></a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </form>
+    </div>
+{% endblock content %}

@@ -1,0 +1,39 @@
+{% extends "booking_app/base.html" %}
+{% load template_tags %}
+{% load static %}
+
+{% block header %}
+    <script src="https://kit.fontawesome.com/42d1a753c3.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+{% endblock %}
+
+{% block title %}
+    {{ titles }}
+{% endblock title %}
+
+{% block content %}
+    <script src="{% static 'booking_app/main.js' %}"></script>
+    <div class="content-section">
+        <legend class="border-bottom mb-3 pb-2">
+            Appointment Change Logs
+        </legend>
+        <div class="form-group has-search col-sm-4 col-md-4 col-lg-4 pb-2" style="float:right">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input id="filterAny" type="text" class="form-control" placeholder="Search">
+        </div>
+        <table class="table table-hover" id="appointmentsTable">
+            <thead>
+                <tr>
+                    <th>Change Logs</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+                {% for item in data %}
+                    <tr height="60px"> 
+                        <td style="padding-top:16px; font-size:40"><span style="font-size: 14px;">{{ item.log }}</span></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock content %}

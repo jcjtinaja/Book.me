@@ -1,0 +1,1548 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "django >=2.2",
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "C:\\Users\\jcjti\\.conda\\pkgs\\django-crispy-forms-1.11.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/crispy_forms/__init__.py",
+    "Lib/site-packages/crispy_forms/base.py",
+    "Lib/site-packages/crispy_forms/bootstrap.py",
+    "Lib/site-packages/crispy_forms/exceptions.py",
+    "Lib/site-packages/crispy_forms/helper.py",
+    "Lib/site-packages/crispy_forms/layout.py",
+    "Lib/site-packages/crispy_forms/layout_slice.py",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/accordion-group.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/accordion.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/betterform.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/display_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/errors_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/field.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/alert.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/baseinput.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/button.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/buttonholder.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/checkboxselectmultiple.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/checkboxselectmultiple_inline.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/column.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/div.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/field_errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/field_errors_block.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/field_with_buttons.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/fieldset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/formactions.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/help_text.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/help_text_and_errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/multifield.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/prepended_appended_text.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/radioselect.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/radioselect_inline.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/row.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/tab-link.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/tab.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/layout/uneditable_input.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/table_inline_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/uni_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/uni_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/whole_uni_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap/whole_uni_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/accordion-group.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/accordion.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/betterform.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/display_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/errors_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/field.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/inputs.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/alert.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/baseinput.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/button.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/buttonholder.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/checkboxselectmultiple.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/checkboxselectmultiple_inline.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/column.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/div.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/field_errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/field_errors_block.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/field_with_buttons.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/fieldset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/formactions.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/help_text.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/help_text_and_errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/inline_field.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/multifield.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/prepended_appended_text.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/radioselect.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/radioselect_inline.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/row.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/tab-link.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/tab.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/layout/uneditable_input.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/multifield.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/table_inline_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/uni_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/uni_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/whole_uni_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap3/whole_uni_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/accordion-group.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/accordion.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/betterform.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/display_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/errors_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/field.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/inputs.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/alert.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/baseinput.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/button.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/buttonholder.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/checkboxselectmultiple.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/checkboxselectmultiple_inline.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/column.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/div.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/field_errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/field_errors_block.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/field_file.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/field_with_buttons.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/fieldset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/formactions.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/help_text.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/help_text_and_errors.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/inline_field.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/multifield.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/prepended_appended_text.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/radioselect.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/radioselect_inline.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/row.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/tab-link.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/tab.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/layout/uneditable_input.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/table_inline_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/uni_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/uni_formset.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/whole_uni_form.html",
+    "Lib/site-packages/crispy_forms/templates/bootstrap4/whole_uni_formset.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/betterform.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/display_form.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/errors.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/errors_formset.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/field.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/field.strict.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/layout/baseinput.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/layout/buttonholder.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/layout/column.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/layout/div.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/layout/fieldset.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/layout/multifield.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/layout/row.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/multifield.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/uni_form.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/uni_formset.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/whole_uni_form.html",
+    "Lib/site-packages/crispy_forms/templates/uni_form/whole_uni_formset.html",
+    "Lib/site-packages/crispy_forms/templatetags/__init__.py",
+    "Lib/site-packages/crispy_forms/templatetags/crispy_forms_field.py",
+    "Lib/site-packages/crispy_forms/templatetags/crispy_forms_filters.py",
+    "Lib/site-packages/crispy_forms/templatetags/crispy_forms_tags.py",
+    "Lib/site-packages/crispy_forms/templatetags/crispy_forms_utils.py",
+    "Lib/site-packages/crispy_forms/tests/__init__.py",
+    "Lib/site-packages/crispy_forms/tests/conftest.py",
+    "Lib/site-packages/crispy_forms/tests/forms.py",
+    "Lib/site-packages/crispy_forms/tests/results/bootstrap4/file_field/clearable_file_field.html",
+    "Lib/site-packages/crispy_forms/tests/results/bootstrap4/file_field/clearable_file_field_custom_class.html",
+    "Lib/site-packages/crispy_forms/tests/results/bootstrap4/file_field/clearable_file_field_custom_control.html",
+    "Lib/site-packages/crispy_forms/tests/results/bootstrap4/file_field/file_field.html",
+    "Lib/site-packages/crispy_forms/tests/results/bootstrap4/file_field/file_field_custom_class.html",
+    "Lib/site-packages/crispy_forms/tests/results/bootstrap4/file_field/file_field_custom_control.html",
+    "Lib/site-packages/crispy_forms/tests/results/utils_test.html",
+    "Lib/site-packages/crispy_forms/tests/templates/crispy_render_template.html",
+    "Lib/site-packages/crispy_forms/tests/templates/custom_field_template.html",
+    "Lib/site-packages/crispy_forms/tests/templates/custom_form_template.html",
+    "Lib/site-packages/crispy_forms/tests/templates/custom_form_template_with_context.html",
+    "Lib/site-packages/crispy_forms/tests/test_dynamic_api.py",
+    "Lib/site-packages/crispy_forms/tests/test_form_helper.py",
+    "Lib/site-packages/crispy_forms/tests/test_layout.py",
+    "Lib/site-packages/crispy_forms/tests/test_layout_objects.py",
+    "Lib/site-packages/crispy_forms/tests/test_settings.py",
+    "Lib/site-packages/crispy_forms/tests/test_tags.py",
+    "Lib/site-packages/crispy_forms/tests/test_utils.py",
+    "Lib/site-packages/crispy_forms/tests/urls.py",
+    "Lib/site-packages/crispy_forms/tests/utils.py",
+    "Lib/site-packages/crispy_forms/utils.py",
+    "Lib/site-packages/django_crispy_forms-1.11.2.dist-info/INSTALLER",
+    "Lib/site-packages/django_crispy_forms-1.11.2.dist-info/LICENSE.txt",
+    "Lib/site-packages/django_crispy_forms-1.11.2.dist-info/METADATA",
+    "Lib/site-packages/django_crispy_forms-1.11.2.dist-info/RECORD",
+    "Lib/site-packages/django_crispy_forms-1.11.2.dist-info/REQUESTED",
+    "Lib/site-packages/django_crispy_forms-1.11.2.dist-info/WHEEL",
+    "Lib/site-packages/django_crispy_forms-1.11.2.dist-info/direct_url.json",
+    "Lib/site-packages/django_crispy_forms-1.11.2.dist-info/top_level.txt",
+    "Lib/site-packages/crispy_forms/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/__pycache__/bootstrap.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/__pycache__/helper.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/__pycache__/layout.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/__pycache__/layout_slice.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/templatetags/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_field.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_filters.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_tags.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_utils.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/conftest.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/forms.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/test_dynamic_api.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/test_form_helper.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/test_layout.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/test_layout_objects.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/test_settings.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/test_tags.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/test_utils.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/urls.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/tests/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/crispy_forms/__pycache__/utils.cpython-38.pyc"
+  ],
+  "fn": "django-crispy-forms-1.11.2-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\jcjti\\.conda\\pkgs\\django-crispy-forms-1.11.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a0b4c1544c23f7ce3ed485c2aaf6655c",
+  "name": "django-crispy-forms",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\jcjti\\.conda\\pkgs\\django-crispy-forms-1.11.2-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/crispy_forms/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9a89e1fad0b631b94973334768ebf3e39e764b0858944df44be950241e88d339",
+        "sha256_in_prefix": "9a89e1fad0b631b94973334768ebf3e39e764b0858944df44be950241e88d339",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/crispy_forms/base.py",
+        "path_type": "hardlink",
+        "sha256": "2963593bd5b3afbc3cd34cb676987a76e1308e3d11c9b6761f04d708b2d5873d",
+        "sha256_in_prefix": "2963593bd5b3afbc3cd34cb676987a76e1308e3d11c9b6761f04d708b2d5873d",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "site-packages/crispy_forms/bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "d11c598f5a89b8714560e311d44dc438224ed1ec0fed51d8089bc13d47581306",
+        "sha256_in_prefix": "d11c598f5a89b8714560e311d44dc438224ed1ec0fed51d8089bc13d47581306",
+        "size_in_bytes": 13576
+      },
+      {
+        "_path": "site-packages/crispy_forms/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "12e309b5f435df7f16faf26b286458498105823c5674de1ffa5d4b8014efaad6",
+        "sha256_in_prefix": "12e309b5f435df7f16faf26b286458498105823c5674de1ffa5d4b8014efaad6",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "site-packages/crispy_forms/helper.py",
+        "path_type": "hardlink",
+        "sha256": "de9156805ed7a5d69cd7d11bd98ece9775b129191c44010888cddeda0f72a5ac",
+        "sha256_in_prefix": "de9156805ed7a5d69cd7d11bd98ece9775b129191c44010888cddeda0f72a5ac",
+        "size_in_bytes": 14320
+      },
+      {
+        "_path": "site-packages/crispy_forms/layout.py",
+        "path_type": "hardlink",
+        "sha256": "7b6b73a3a780efeb20ded777ef2787b388b6bb193e953f307a823e23eb2dfcb3",
+        "sha256_in_prefix": "7b6b73a3a780efeb20ded777ef2787b388b6bb193e953f307a823e23eb2dfcb3",
+        "size_in_bytes": 16193
+      },
+      {
+        "_path": "site-packages/crispy_forms/layout_slice.py",
+        "path_type": "hardlink",
+        "sha256": "f9c454c31cecb22bdaed2d16833fe17373e23dba9338eaafa3d3723cb8981796",
+        "sha256_in_prefix": "f9c454c31cecb22bdaed2d16833fe17373e23dba9338eaafa3d3723cb8981796",
+        "size_in_bytes": 6330
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/accordion-group.html",
+        "path_type": "hardlink",
+        "sha256": "3f5a06aba802d501267f4427ba260371febcd19f9ed678028d209445efde8da2",
+        "sha256_in_prefix": "3f5a06aba802d501267f4427ba260371febcd19f9ed678028d209445efde8da2",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/accordion.html",
+        "path_type": "hardlink",
+        "sha256": "03480ff443f3c7102bc7d56665c576f5609fff987163de41dcc03b969676e654",
+        "sha256_in_prefix": "03480ff443f3c7102bc7d56665c576f5609fff987163de41dcc03b969676e654",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/betterform.html",
+        "path_type": "hardlink",
+        "sha256": "6ad0242625fe1c26835b13729d43191d82c0ddafd25ed22a6e42a5a47a726aca",
+        "sha256_in_prefix": "6ad0242625fe1c26835b13729d43191d82c0ddafd25ed22a6e42a5a47a726aca",
+        "size_in_bytes": 667
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/display_form.html",
+        "path_type": "hardlink",
+        "sha256": "abfaaf12dc27a5327f7759b20cd528531530308bdb180f297fa8f900e607a7f4",
+        "sha256_in_prefix": "abfaaf12dc27a5327f7759b20cd528531530308bdb180f297fa8f900e607a7f4",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/errors.html",
+        "path_type": "hardlink",
+        "sha256": "35a6f5e80fb48aeea83c276a414fdaea8349d40bc4062a4ab0cda5d918b31c75",
+        "sha256_in_prefix": "35a6f5e80fb48aeea83c276a414fdaea8349d40bc4062a4ab0cda5d918b31c75",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/errors_formset.html",
+        "path_type": "hardlink",
+        "sha256": "d0633aebe05df4747a5b3f70fc81175acb32aeeedf0cf2f35b23be95c4d57ee1",
+        "sha256_in_prefix": "d0633aebe05df4747a5b3f70fc81175acb32aeeedf0cf2f35b23be95c4d57ee1",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/field.html",
+        "path_type": "hardlink",
+        "sha256": "28f583b8a544b17ca47553cf73d0686600ee6fb5e1e9029f0b774680ccf7bf8d",
+        "sha256_in_prefix": "28f583b8a544b17ca47553cf73d0686600ee6fb5e1e9029f0b774680ccf7bf8d",
+        "size_in_bytes": 1871
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/alert.html",
+        "path_type": "hardlink",
+        "sha256": "2986726a911cab7f83f4cbe742a0b8b6e78e0be541f8f79230a99932dcdce71b",
+        "sha256_in_prefix": "2986726a911cab7f83f4cbe742a0b8b6e78e0be541f8f79230a99932dcdce71b",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/baseinput.html",
+        "path_type": "hardlink",
+        "sha256": "61ac9313e06a50a75bee4d4ce85ac0baec290ddb936e4c9f3ab91ed2311e016e",
+        "sha256_in_prefix": "61ac9313e06a50a75bee4d4ce85ac0baec290ddb936e4c9f3ab91ed2311e016e",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/button.html",
+        "path_type": "hardlink",
+        "sha256": "1daef4b4838747fdd54ad4a9447642f69d9b80807ca126b19899b33bb23f1355",
+        "sha256_in_prefix": "1daef4b4838747fdd54ad4a9447642f69d9b80807ca126b19899b33bb23f1355",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/buttonholder.html",
+        "path_type": "hardlink",
+        "sha256": "1e2cdffef3231a37ccb67465221202d3540cb8e0ae9a564229c046e75f1de26f",
+        "sha256_in_prefix": "1e2cdffef3231a37ccb67465221202d3540cb8e0ae9a564229c046e75f1de26f",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/checkboxselectmultiple.html",
+        "path_type": "hardlink",
+        "sha256": "bcab57de60ce67b9e70831989129408497adbc6d21fd2db7ac132d96865aaa91",
+        "sha256_in_prefix": "bcab57de60ce67b9e70831989129408497adbc6d21fd2db7ac132d96865aaa91",
+        "size_in_bytes": 917
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/checkboxselectmultiple_inline.html",
+        "path_type": "hardlink",
+        "sha256": "c90721bb52b5224d2758167b852fa9b2dd959ba9ca2b06d31d6cdb0a3ca21726",
+        "sha256_in_prefix": "c90721bb52b5224d2758167b852fa9b2dd959ba9ca2b06d31d6cdb0a3ca21726",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/column.html",
+        "path_type": "hardlink",
+        "sha256": "a37c3acab6fcf6af7b636f7b0529e564c368b3f4ca9c8463844fc03876e3710b",
+        "sha256_in_prefix": "a37c3acab6fcf6af7b636f7b0529e564c368b3f4ca9c8463844fc03876e3710b",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/div.html",
+        "path_type": "hardlink",
+        "sha256": "6098002319362148ac1307bf29af5696f33d61e1b2a387a5395914922fe5794f",
+        "sha256_in_prefix": "6098002319362148ac1307bf29af5696f33d61e1b2a387a5395914922fe5794f",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/field_errors.html",
+        "path_type": "hardlink",
+        "sha256": "b25156ee0186a853189fa2d62aa2b2fd7ef740fb2660432d874af7ed155420fe",
+        "sha256_in_prefix": "b25156ee0186a853189fa2d62aa2b2fd7ef740fb2660432d874af7ed155420fe",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/field_errors_block.html",
+        "path_type": "hardlink",
+        "sha256": "f9b80bc43a08f74fcdd9e6fcf76e20a5f228d6e90143df043e0e98f6d82ae530",
+        "sha256_in_prefix": "f9b80bc43a08f74fcdd9e6fcf76e20a5f228d6e90143df043e0e98f6d82ae530",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/field_with_buttons.html",
+        "path_type": "hardlink",
+        "sha256": "381cfddd9c9eca57aa7894b2e96124f134212b778242ceeedeed6142f2e7d323",
+        "sha256_in_prefix": "381cfddd9c9eca57aa7894b2e96124f134212b778242ceeedeed6142f2e7d323",
+        "size_in_bytes": 854
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "625fe4197398b25e4e8f3c2ff19e6c62054e0ecc306a556d8f1ebaea2de2cdce",
+        "sha256_in_prefix": "625fe4197398b25e4e8f3c2ff19e6c62054e0ecc306a556d8f1ebaea2de2cdce",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/formactions.html",
+        "path_type": "hardlink",
+        "sha256": "9332a0535bb10b2198b936bfead5339402d3ecf6d05451e686a0f86ba82525df",
+        "sha256_in_prefix": "9332a0535bb10b2198b936bfead5339402d3ecf6d05451e686a0f86ba82525df",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/help_text.html",
+        "path_type": "hardlink",
+        "sha256": "6fadf144a3d2ebf7e71c44d3c24d4ddaf4f5d84ba120eac2b6d2ac7c160ca6eb",
+        "sha256_in_prefix": "6fadf144a3d2ebf7e71c44d3c24d4ddaf4f5d84ba120eac2b6d2ac7c160ca6eb",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/help_text_and_errors.html",
+        "path_type": "hardlink",
+        "sha256": "f83632a75aaae240e73244d3f81a20f198273e36aa75069f623da59b32dc7d92",
+        "sha256_in_prefix": "f83632a75aaae240e73244d3f81a20f198273e36aa75069f623da59b32dc7d92",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/multifield.html",
+        "path_type": "hardlink",
+        "sha256": "bfd8166e65801950e4c6c242badd17eed67a26363238e5b4b7c437153a09ad8f",
+        "sha256_in_prefix": "bfd8166e65801950e4c6c242badd17eed67a26363238e5b4b7c437153a09ad8f",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/prepended_appended_text.html",
+        "path_type": "hardlink",
+        "sha256": "42fd83b01e9d408dfb00ab498cdd2a424a27b2b805dd9b41ddf970c5eb0d60d2",
+        "sha256_in_prefix": "42fd83b01e9d408dfb00ab498cdd2a424a27b2b805dd9b41ddf970c5eb0d60d2",
+        "size_in_bytes": 1312
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/radioselect.html",
+        "path_type": "hardlink",
+        "sha256": "993eb3c55e6d7c7dca1a53b142b94f919c224332ac27580868a19bcddd82835e",
+        "sha256_in_prefix": "993eb3c55e6d7c7dca1a53b142b94f919c224332ac27580868a19bcddd82835e",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/radioselect_inline.html",
+        "path_type": "hardlink",
+        "sha256": "bd48e040493cbf117dfdc79db0a7db7f847a85b2ef01f61046c434ecc7e6574b",
+        "sha256_in_prefix": "bd48e040493cbf117dfdc79db0a7db7f847a85b2ef01f61046c434ecc7e6574b",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/row.html",
+        "path_type": "hardlink",
+        "sha256": "fddff017743e659cca06fee9e70fcd742d8638615bb064c2c8fac2f623c4e1b3",
+        "sha256_in_prefix": "fddff017743e659cca06fee9e70fcd742d8638615bb064c2c8fac2f623c4e1b3",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/tab-link.html",
+        "path_type": "hardlink",
+        "sha256": "270a30217a9813b33615f71507dacbc6ea9216877887108627d979df9ed8b180",
+        "sha256_in_prefix": "270a30217a9813b33615f71507dacbc6ea9216877887108627d979df9ed8b180",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/tab.html",
+        "path_type": "hardlink",
+        "sha256": "1fa1067451aadd1f9a627833d6d8b435f196ef71fcfce6b44fb6a2ce08abf4b4",
+        "sha256_in_prefix": "1fa1067451aadd1f9a627833d6d8b435f196ef71fcfce6b44fb6a2ce08abf4b4",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/layout/uneditable_input.html",
+        "path_type": "hardlink",
+        "sha256": "306202257cc10a532fd0ecf8890bc2880b218ef5399ad5983674486795d11057",
+        "sha256_in_prefix": "306202257cc10a532fd0ecf8890bc2880b218ef5399ad5983674486795d11057",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/table_inline_formset.html",
+        "path_type": "hardlink",
+        "sha256": "10b31d93c243bd92d944617371e9a705e113f96395d852fd356332f4d9c321c4",
+        "sha256_in_prefix": "10b31d93c243bd92d944617371e9a705e113f96395d852fd356332f4d9c321c4",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/uni_form.html",
+        "path_type": "hardlink",
+        "sha256": "e09e108feed6438a8ff296ea842c1c2f436b62234478342650661d7236423945",
+        "sha256_in_prefix": "e09e108feed6438a8ff296ea842c1c2f436b62234478342650661d7236423945",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/uni_formset.html",
+        "path_type": "hardlink",
+        "sha256": "dbab557b198f31488b68c468de27728afbf5893d95fa38c5774e7dc2dd982fb7",
+        "sha256_in_prefix": "dbab557b198f31488b68c468de27728afbf5893d95fa38c5774e7dc2dd982fb7",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/whole_uni_form.html",
+        "path_type": "hardlink",
+        "sha256": "b96608a5c3709916d1f12c085563666147ccccdc2cf818297a49fe077a7c04ef",
+        "sha256_in_prefix": "b96608a5c3709916d1f12c085563666147ccccdc2cf818297a49fe077a7c04ef",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap/whole_uni_formset.html",
+        "path_type": "hardlink",
+        "sha256": "cebf5b7ac39503981623704900e60bff3580b8352aa81865c3038f42adc0a046",
+        "sha256_in_prefix": "cebf5b7ac39503981623704900e60bff3580b8352aa81865c3038f42adc0a046",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/accordion-group.html",
+        "path_type": "hardlink",
+        "sha256": "1d1ea74cca4d1cd1b5278d679d01dd9e3ae983a1b57c695a33c33231bae76eb0",
+        "sha256_in_prefix": "1d1ea74cca4d1cd1b5278d679d01dd9e3ae983a1b57c695a33c33231bae76eb0",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/accordion.html",
+        "path_type": "hardlink",
+        "sha256": "45c13ef87d35a502e7333ec5d2ff62af2241070db2c51cde6249be17fe8d9453",
+        "sha256_in_prefix": "45c13ef87d35a502e7333ec5d2ff62af2241070db2c51cde6249be17fe8d9453",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/betterform.html",
+        "path_type": "hardlink",
+        "sha256": "313891e515e01b39fae0d51ea44ddc2899a83f6ad5bf3486685799f44da03fe8",
+        "sha256_in_prefix": "313891e515e01b39fae0d51ea44ddc2899a83f6ad5bf3486685799f44da03fe8",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/display_form.html",
+        "path_type": "hardlink",
+        "sha256": "f99a44fd0a031b3943468227c46301ddae1f96c5893ca486ba27bf5ea620227e",
+        "sha256_in_prefix": "f99a44fd0a031b3943468227c46301ddae1f96c5893ca486ba27bf5ea620227e",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/errors.html",
+        "path_type": "hardlink",
+        "sha256": "33dcec3b8f0d35dee530144849abf502452a24d7cc2cff9a6dd6885003a12ee2",
+        "sha256_in_prefix": "33dcec3b8f0d35dee530144849abf502452a24d7cc2cff9a6dd6885003a12ee2",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/errors_formset.html",
+        "path_type": "hardlink",
+        "sha256": "a4fc0d74187f3f80f1bacaa3b118109090fe9f4626d58a2a332f034febb47d15",
+        "sha256_in_prefix": "a4fc0d74187f3f80f1bacaa3b118109090fe9f4626d58a2a332f034febb47d15",
+        "size_in_bytes": 294
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/field.html",
+        "path_type": "hardlink",
+        "sha256": "37163403ad5da8de8ecd93b93ae08cb2b71c6295a92bdfb19faa4919abf6e890",
+        "sha256_in_prefix": "37163403ad5da8de8ecd93b93ae08cb2b71c6295a92bdfb19faa4919abf6e890",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/inputs.html",
+        "path_type": "hardlink",
+        "sha256": "f5ec40c91290abb57f9cc124c53b40654ed57e2301fe749ab0911ca090683e58",
+        "sha256_in_prefix": "f5ec40c91290abb57f9cc124c53b40654ed57e2301fe749ab0911ca090683e58",
+        "size_in_bytes": 373
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/alert.html",
+        "path_type": "hardlink",
+        "sha256": "2986726a911cab7f83f4cbe742a0b8b6e78e0be541f8f79230a99932dcdce71b",
+        "sha256_in_prefix": "2986726a911cab7f83f4cbe742a0b8b6e78e0be541f8f79230a99932dcdce71b",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/baseinput.html",
+        "path_type": "hardlink",
+        "sha256": "61ac9313e06a50a75bee4d4ce85ac0baec290ddb936e4c9f3ab91ed2311e016e",
+        "sha256_in_prefix": "61ac9313e06a50a75bee4d4ce85ac0baec290ddb936e4c9f3ab91ed2311e016e",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/button.html",
+        "path_type": "hardlink",
+        "sha256": "1daef4b4838747fdd54ad4a9447642f69d9b80807ca126b19899b33bb23f1355",
+        "sha256_in_prefix": "1daef4b4838747fdd54ad4a9447642f69d9b80807ca126b19899b33bb23f1355",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/buttonholder.html",
+        "path_type": "hardlink",
+        "sha256": "1e2cdffef3231a37ccb67465221202d3540cb8e0ae9a564229c046e75f1de26f",
+        "sha256_in_prefix": "1e2cdffef3231a37ccb67465221202d3540cb8e0ae9a564229c046e75f1de26f",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/checkboxselectmultiple.html",
+        "path_type": "hardlink",
+        "sha256": "ade5b79cfe34e836dcb57948b5ba5cd323b834bb4357e572b6d90edf34fd7f4c",
+        "sha256_in_prefix": "ade5b79cfe34e836dcb57948b5ba5cd323b834bb4357e572b6d90edf34fd7f4c",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/checkboxselectmultiple_inline.html",
+        "path_type": "hardlink",
+        "sha256": "f151765be69ba20fa24b174c293d722c2a65318b512f1f8b721dccdb313da496",
+        "sha256_in_prefix": "f151765be69ba20fa24b174c293d722c2a65318b512f1f8b721dccdb313da496",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/column.html",
+        "path_type": "hardlink",
+        "sha256": "706793bad973cee54a2e1ba579b03323ad1cd2e3effc99aa85e9d209acaeb47a",
+        "sha256_in_prefix": "706793bad973cee54a2e1ba579b03323ad1cd2e3effc99aa85e9d209acaeb47a",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/div.html",
+        "path_type": "hardlink",
+        "sha256": "6098002319362148ac1307bf29af5696f33d61e1b2a387a5395914922fe5794f",
+        "sha256_in_prefix": "6098002319362148ac1307bf29af5696f33d61e1b2a387a5395914922fe5794f",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/field_errors.html",
+        "path_type": "hardlink",
+        "sha256": "def0510668e3a34459021f0c031670eef4ca9fe2522d8f19aaa62046742c4182",
+        "sha256_in_prefix": "def0510668e3a34459021f0c031670eef4ca9fe2522d8f19aaa62046742c4182",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/field_errors_block.html",
+        "path_type": "hardlink",
+        "sha256": "f9b80bc43a08f74fcdd9e6fcf76e20a5f228d6e90143df043e0e98f6d82ae530",
+        "sha256_in_prefix": "f9b80bc43a08f74fcdd9e6fcf76e20a5f228d6e90143df043e0e98f6d82ae530",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/field_with_buttons.html",
+        "path_type": "hardlink",
+        "sha256": "a54f64187e74fb7e123eed0801d4aa9f1c815044bf053885a43726e668ec333d",
+        "sha256_in_prefix": "a54f64187e74fb7e123eed0801d4aa9f1c815044bf053885a43726e668ec333d",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "625fe4197398b25e4e8f3c2ff19e6c62054e0ecc306a556d8f1ebaea2de2cdce",
+        "sha256_in_prefix": "625fe4197398b25e4e8f3c2ff19e6c62054e0ecc306a556d8f1ebaea2de2cdce",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/formactions.html",
+        "path_type": "hardlink",
+        "sha256": "c70acd84e1e1ab7333af8b5697c810ce9e634994fcd8119d9511f36fe00f6a6b",
+        "sha256_in_prefix": "c70acd84e1e1ab7333af8b5697c810ce9e634994fcd8119d9511f36fe00f6a6b",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/help_text.html",
+        "path_type": "hardlink",
+        "sha256": "d9685335cce8f7e3af8324906c7e2c630391028e26173bcc78eb258de698e6a5",
+        "sha256_in_prefix": "d9685335cce8f7e3af8324906c7e2c630391028e26173bcc78eb258de698e6a5",
+        "size_in_bytes": 290
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/help_text_and_errors.html",
+        "path_type": "hardlink",
+        "sha256": "991e3646222ff5a725c6bee2790a232fb7edd6b4e58967c530cf754b15401bd5",
+        "sha256_in_prefix": "991e3646222ff5a725c6bee2790a232fb7edd6b4e58967c530cf754b15401bd5",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/inline_field.html",
+        "path_type": "hardlink",
+        "sha256": "0cc243376fdac89e278313a2e5e43af41b7f2b7177bddd8d7b6c81d54d6803a1",
+        "sha256_in_prefix": "0cc243376fdac89e278313a2e5e43af41b7f2b7177bddd8d7b6c81d54d6803a1",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/multifield.html",
+        "path_type": "hardlink",
+        "sha256": "6485dcf2573469b8a963386f8c70e2190093f290200e84d62302714c83fe8cab",
+        "sha256_in_prefix": "6485dcf2573469b8a963386f8c70e2190093f290200e84d62302714c83fe8cab",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/prepended_appended_text.html",
+        "path_type": "hardlink",
+        "sha256": "53f1f85b20a735a9e837a3ef663b74dcd1dfa5751ca52da03d36e9c962136757",
+        "sha256_in_prefix": "53f1f85b20a735a9e837a3ef663b74dcd1dfa5751ca52da03d36e9c962136757",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/radioselect.html",
+        "path_type": "hardlink",
+        "sha256": "3b5a8f36c767ce63ffe2c57b53085c9b5fdd3e1fa91d2e61d5b243fc6c7340eb",
+        "sha256_in_prefix": "3b5a8f36c767ce63ffe2c57b53085c9b5fdd3e1fa91d2e61d5b243fc6c7340eb",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/radioselect_inline.html",
+        "path_type": "hardlink",
+        "sha256": "cec8b04dc6d5731d46bdcd7076321df40d13e5fc2abecda755ee00d8b7e126f7",
+        "sha256_in_prefix": "cec8b04dc6d5731d46bdcd7076321df40d13e5fc2abecda755ee00d8b7e126f7",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/row.html",
+        "path_type": "hardlink",
+        "sha256": "fddff017743e659cca06fee9e70fcd742d8638615bb064c2c8fac2f623c4e1b3",
+        "sha256_in_prefix": "fddff017743e659cca06fee9e70fcd742d8638615bb064c2c8fac2f623c4e1b3",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/tab-link.html",
+        "path_type": "hardlink",
+        "sha256": "270a30217a9813b33615f71507dacbc6ea9216877887108627d979df9ed8b180",
+        "sha256_in_prefix": "270a30217a9813b33615f71507dacbc6ea9216877887108627d979df9ed8b180",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/tab.html",
+        "path_type": "hardlink",
+        "sha256": "aa27d58eba4ebaed7a677bfdcf5a177dab87d9003111544b5f9bf0f9e7b14c43",
+        "sha256_in_prefix": "aa27d58eba4ebaed7a677bfdcf5a177dab87d9003111544b5f9bf0f9e7b14c43",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/layout/uneditable_input.html",
+        "path_type": "hardlink",
+        "sha256": "675e7bbd43dec0a7e897c6018350691f314a4fd6e34ffbc93a8daaa4a920df6c",
+        "sha256_in_prefix": "675e7bbd43dec0a7e897c6018350691f314a4fd6e34ffbc93a8daaa4a920df6c",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/multifield.html",
+        "path_type": "hardlink",
+        "sha256": "98d3e10ad3da9dd691d095ce15cc9add2e23a83ced802054840b2ae123bbeb7b",
+        "sha256_in_prefix": "98d3e10ad3da9dd691d095ce15cc9add2e23a83ced802054840b2ae123bbeb7b",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/table_inline_formset.html",
+        "path_type": "hardlink",
+        "sha256": "2051110bbf7d3c5ecaef400089488d23eddc3aafe6beb6b42fa7b27a9952b598",
+        "sha256_in_prefix": "2051110bbf7d3c5ecaef400089488d23eddc3aafe6beb6b42fa7b27a9952b598",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/uni_form.html",
+        "path_type": "hardlink",
+        "sha256": "87a5af173a059359c1c38cceecf21739bff4fb39f8d8a73c0397fac9f8b4edd7",
+        "sha256_in_prefix": "87a5af173a059359c1c38cceecf21739bff4fb39f8d8a73c0397fac9f8b4edd7",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/uni_formset.html",
+        "path_type": "hardlink",
+        "sha256": "d7cab07da407f8a03df0fb2c4fe84cbfd88cd2a142594b05d613eaea019f110b",
+        "sha256_in_prefix": "d7cab07da407f8a03df0fb2c4fe84cbfd88cd2a142594b05d613eaea019f110b",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/whole_uni_form.html",
+        "path_type": "hardlink",
+        "sha256": "6e17d261002b58038217e21b064c37b0c50cdb83a872d98cac5df63f59b75b4f",
+        "sha256_in_prefix": "6e17d261002b58038217e21b064c37b0c50cdb83a872d98cac5df63f59b75b4f",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap3/whole_uni_formset.html",
+        "path_type": "hardlink",
+        "sha256": "94d010549d2b216671f521030672c238cd15bf91fd5389e5974ab3472eb5251f",
+        "sha256_in_prefix": "94d010549d2b216671f521030672c238cd15bf91fd5389e5974ab3472eb5251f",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/accordion-group.html",
+        "path_type": "hardlink",
+        "sha256": "629b022d3676f97c0dcaa75b61fe7b42338de479735a447c4350f9ee662da29a",
+        "sha256_in_prefix": "629b022d3676f97c0dcaa75b61fe7b42338de479735a447c4350f9ee662da29a",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/accordion.html",
+        "path_type": "hardlink",
+        "sha256": "fef410ec8ceffbc29e664a9585f0d55ad1841214c4ce5cb0f0eb85a61b98bdf5",
+        "sha256_in_prefix": "fef410ec8ceffbc29e664a9585f0d55ad1841214c4ce5cb0f0eb85a61b98bdf5",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/betterform.html",
+        "path_type": "hardlink",
+        "sha256": "8bd7ac45f17346f6f119d2fdb213bb034a3da3497609c0eae4ae0bde6a5c68bf",
+        "sha256_in_prefix": "8bd7ac45f17346f6f119d2fdb213bb034a3da3497609c0eae4ae0bde6a5c68bf",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/display_form.html",
+        "path_type": "hardlink",
+        "sha256": "4ef92fceb760389bfff4567a9a19785be41006f168c3c275639622dd0b67d068",
+        "sha256_in_prefix": "4ef92fceb760389bfff4567a9a19785be41006f168c3c275639622dd0b67d068",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/errors.html",
+        "path_type": "hardlink",
+        "sha256": "f7cdf25b47c8aeb4ca848279ccd5da19adf32ce37d87f0a59012c3e6b047a895",
+        "sha256_in_prefix": "f7cdf25b47c8aeb4ca848279ccd5da19adf32ce37d87f0a59012c3e6b047a895",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/errors_formset.html",
+        "path_type": "hardlink",
+        "sha256": "20608906a6ca3ed9e60ef42870c3832dc2b014662236aff195164053b68853ee",
+        "sha256_in_prefix": "20608906a6ca3ed9e60ef42870c3832dc2b014662236aff195164053b68853ee",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/field.html",
+        "path_type": "hardlink",
+        "sha256": "d6a3a200df2e8500c4ba9cb1ca7a07540283b67b1c647df3e790458f20143e4a",
+        "sha256_in_prefix": "d6a3a200df2e8500c4ba9cb1ca7a07540283b67b1c647df3e790458f20143e4a",
+        "size_in_bytes": 3085
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/inputs.html",
+        "path_type": "hardlink",
+        "sha256": "8777b686e3ee7024a835744be1ed7899d56598bbf53a8047823eb7a615c5b353",
+        "sha256_in_prefix": "8777b686e3ee7024a835744be1ed7899d56598bbf53a8047823eb7a615c5b353",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/alert.html",
+        "path_type": "hardlink",
+        "sha256": "2986726a911cab7f83f4cbe742a0b8b6e78e0be541f8f79230a99932dcdce71b",
+        "sha256_in_prefix": "2986726a911cab7f83f4cbe742a0b8b6e78e0be541f8f79230a99932dcdce71b",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/baseinput.html",
+        "path_type": "hardlink",
+        "sha256": "61ac9313e06a50a75bee4d4ce85ac0baec290ddb936e4c9f3ab91ed2311e016e",
+        "sha256_in_prefix": "61ac9313e06a50a75bee4d4ce85ac0baec290ddb936e4c9f3ab91ed2311e016e",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/button.html",
+        "path_type": "hardlink",
+        "sha256": "1daef4b4838747fdd54ad4a9447642f69d9b80807ca126b19899b33bb23f1355",
+        "sha256_in_prefix": "1daef4b4838747fdd54ad4a9447642f69d9b80807ca126b19899b33bb23f1355",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/buttonholder.html",
+        "path_type": "hardlink",
+        "sha256": "1e2cdffef3231a37ccb67465221202d3540cb8e0ae9a564229c046e75f1de26f",
+        "sha256_in_prefix": "1e2cdffef3231a37ccb67465221202d3540cb8e0ae9a564229c046e75f1de26f",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/checkboxselectmultiple.html",
+        "path_type": "hardlink",
+        "sha256": "f8a86eb814f1c691ad605e2a949a8929e3d7326475111678edd1062de857c838",
+        "sha256_in_prefix": "f8a86eb814f1c691ad605e2a949a8929e3d7326475111678edd1062de857c838",
+        "size_in_bytes": 2079
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/checkboxselectmultiple_inline.html",
+        "path_type": "hardlink",
+        "sha256": "2566dfb0b0bc2e61bc0a8c5ff49614fecd0baf8dbe58bab22cd21fefaacfe17f",
+        "sha256_in_prefix": "2566dfb0b0bc2e61bc0a8c5ff49614fecd0baf8dbe58bab22cd21fefaacfe17f",
+        "size_in_bytes": 806
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/column.html",
+        "path_type": "hardlink",
+        "sha256": "3d66a4079051274f103b955dfc6ba26403ade329878e7c5815226b7fe9592ef8",
+        "sha256_in_prefix": "3d66a4079051274f103b955dfc6ba26403ade329878e7c5815226b7fe9592ef8",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/div.html",
+        "path_type": "hardlink",
+        "sha256": "6098002319362148ac1307bf29af5696f33d61e1b2a387a5395914922fe5794f",
+        "sha256_in_prefix": "6098002319362148ac1307bf29af5696f33d61e1b2a387a5395914922fe5794f",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/field_errors.html",
+        "path_type": "hardlink",
+        "sha256": "a43b5f159315ef4fb350f4bed49fdf5ef0fe302c64cc3d9161c965507d6e4985",
+        "sha256_in_prefix": "a43b5f159315ef4fb350f4bed49fdf5ef0fe302c64cc3d9161c965507d6e4985",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/field_errors_block.html",
+        "path_type": "hardlink",
+        "sha256": "4e4ceab34afb3558481d883db1e82ff1c0da8b28c3d4ac2c2d150e57855d15fe",
+        "sha256_in_prefix": "4e4ceab34afb3558481d883db1e82ff1c0da8b28c3d4ac2c2d150e57855d15fe",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/field_file.html",
+        "path_type": "hardlink",
+        "sha256": "7eea8d18b92ec5559878e71017ed074cb98b9e94b7fdc55d8ad5c03562ee52a1",
+        "sha256_in_prefix": "7eea8d18b92ec5559878e71017ed074cb98b9e94b7fdc55d8ad5c03562ee52a1",
+        "size_in_bytes": 2710
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/field_with_buttons.html",
+        "path_type": "hardlink",
+        "sha256": "5f92d95cacbcdc89af6e72f8ce84f932a440b0a7400d7e3f72bcaff9893b2793",
+        "sha256_in_prefix": "5f92d95cacbcdc89af6e72f8ce84f932a440b0a7400d7e3f72bcaff9893b2793",
+        "size_in_bytes": 1163
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "625fe4197398b25e4e8f3c2ff19e6c62054e0ecc306a556d8f1ebaea2de2cdce",
+        "sha256_in_prefix": "625fe4197398b25e4e8f3c2ff19e6c62054e0ecc306a556d8f1ebaea2de2cdce",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/formactions.html",
+        "path_type": "hardlink",
+        "sha256": "7caad1a5067268ea98fc1bc8744b8011a2797f184ce9f9b062deb1755dc5c7f0",
+        "sha256_in_prefix": "7caad1a5067268ea98fc1bc8744b8011a2797f184ce9f9b062deb1755dc5c7f0",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/help_text.html",
+        "path_type": "hardlink",
+        "sha256": "a94726b6841303797dddd98bd20d072eb934b104107f80e762ec47608cefe991",
+        "sha256_in_prefix": "a94726b6841303797dddd98bd20d072eb934b104107f80e762ec47608cefe991",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/help_text_and_errors.html",
+        "path_type": "hardlink",
+        "sha256": "bb842da9592293478db18f578e6ccb83635548a79693f897eb8725bf9b9db79c",
+        "sha256_in_prefix": "bb842da9592293478db18f578e6ccb83635548a79693f897eb8725bf9b9db79c",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/inline_field.html",
+        "path_type": "hardlink",
+        "sha256": "18c835d719dc47a0d664d340746b7e83d2445295b48082f2181e8e7fe4129493",
+        "sha256_in_prefix": "18c835d719dc47a0d664d340746b7e83d2445295b48082f2181e8e7fe4129493",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/multifield.html",
+        "path_type": "hardlink",
+        "sha256": "bfd8166e65801950e4c6c242badd17eed67a26363238e5b4b7c437153a09ad8f",
+        "sha256_in_prefix": "bfd8166e65801950e4c6c242badd17eed67a26363238e5b4b7c437153a09ad8f",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/prepended_appended_text.html",
+        "path_type": "hardlink",
+        "sha256": "fb6ad7019454e034fee0ae8917f38c4630232a3d1d308cfd0331a5a4adbc0a62",
+        "sha256_in_prefix": "fb6ad7019454e034fee0ae8917f38c4630232a3d1d308cfd0331a5a4adbc0a62",
+        "size_in_bytes": 2233
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/radioselect.html",
+        "path_type": "hardlink",
+        "sha256": "3f8329cfefa210eecd39f1cf7090890d030b5e5531c3b027467656c6d361c062",
+        "sha256_in_prefix": "3f8329cfefa210eecd39f1cf7090890d030b5e5531c3b027467656c6d361c062",
+        "size_in_bytes": 2000
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/radioselect_inline.html",
+        "path_type": "hardlink",
+        "sha256": "948bf5792c1fd37baa7ae3fc3f90d60d1792b0520d20aacafe1539f03720b0ff",
+        "sha256_in_prefix": "948bf5792c1fd37baa7ae3fc3f90d60d1792b0520d20aacafe1539f03720b0ff",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/row.html",
+        "path_type": "hardlink",
+        "sha256": "48244629f67dfd3074c0f834291da942476bf09be1da55ec99469af106cb563f",
+        "sha256_in_prefix": "48244629f67dfd3074c0f834291da942476bf09be1da55ec99469af106cb563f",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/tab-link.html",
+        "path_type": "hardlink",
+        "sha256": "7b55a61c4a301430501623f99e3f33ea7ccef1dee7d3c2777692a30b43a26a99",
+        "sha256_in_prefix": "7b55a61c4a301430501623f99e3f33ea7ccef1dee7d3c2777692a30b43a26a99",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/tab.html",
+        "path_type": "hardlink",
+        "sha256": "2fc5b80db5983b4caf7d2cccd3f7ee596660f73f9f3b60c8c05ae02a24daf34e",
+        "sha256_in_prefix": "2fc5b80db5983b4caf7d2cccd3f7ee596660f73f9f3b60c8c05ae02a24daf34e",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/layout/uneditable_input.html",
+        "path_type": "hardlink",
+        "sha256": "44d0fee55613adb0376671c6bff21c3e9c7b04cc11301217a0deea96c1f98d65",
+        "sha256_in_prefix": "44d0fee55613adb0376671c6bff21c3e9c7b04cc11301217a0deea96c1f98d65",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/table_inline_formset.html",
+        "path_type": "hardlink",
+        "sha256": "a8fa695b13044cd1bd966aaa00853d2e5948dd6250f0b11f1305dd215f3a72f4",
+        "sha256_in_prefix": "a8fa695b13044cd1bd966aaa00853d2e5948dd6250f0b11f1305dd215f3a72f4",
+        "size_in_bytes": 2091
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/uni_form.html",
+        "path_type": "hardlink",
+        "sha256": "f34b2d6fada0b67443f49c051fe7e1fc72407b842230e16ff8b8bc95683167e5",
+        "sha256_in_prefix": "f34b2d6fada0b67443f49c051fe7e1fc72407b842230e16ff8b8bc95683167e5",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/uni_formset.html",
+        "path_type": "hardlink",
+        "sha256": "16b1ce4d3c68302590fe2e9c5f895b67fcc8f6a194fb9ea294beaeac377a9984",
+        "sha256_in_prefix": "16b1ce4d3c68302590fe2e9c5f895b67fcc8f6a194fb9ea294beaeac377a9984",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/whole_uni_form.html",
+        "path_type": "hardlink",
+        "sha256": "f613978c10b0488fa516b6bdac11c44e03596b9dd4e70105907eaf76821b451a",
+        "sha256_in_prefix": "f613978c10b0488fa516b6bdac11c44e03596b9dd4e70105907eaf76821b451a",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/bootstrap4/whole_uni_formset.html",
+        "path_type": "hardlink",
+        "sha256": "14f1611a15e2c8a17fc91cccf9b9ac95cf34ffbf645386298f97c8260dc7fa22",
+        "sha256_in_prefix": "14f1611a15e2c8a17fc91cccf9b9ac95cf34ffbf645386298f97c8260dc7fa22",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/betterform.html",
+        "path_type": "hardlink",
+        "sha256": "a04eb30d040bb2ca52e84db12c5b13dc016a0f5cab52b2922dd078fa3776c9a4",
+        "sha256_in_prefix": "a04eb30d040bb2ca52e84db12c5b13dc016a0f5cab52b2922dd078fa3776c9a4",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/display_form.html",
+        "path_type": "hardlink",
+        "sha256": "4ec60d00e7c03543f4b0e3b7137ff8d9e9c9616675559ea17017c328ea8ec084",
+        "sha256_in_prefix": "4ec60d00e7c03543f4b0e3b7137ff8d9e9c9616675559ea17017c328ea8ec084",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/errors.html",
+        "path_type": "hardlink",
+        "sha256": "5b75f4acfb7bf9cdab9a89418fe8a9e9e10406ac743f0347545047eb562f98bf",
+        "sha256_in_prefix": "5b75f4acfb7bf9cdab9a89418fe8a9e9e10406ac743f0347545047eb562f98bf",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/errors_formset.html",
+        "path_type": "hardlink",
+        "sha256": "897702478982e4c32439b747fa126d60c65b52ca65555e4e52aaae4dea2612d7",
+        "sha256_in_prefix": "897702478982e4c32439b747fa126d60c65b52ca65555e4e52aaae4dea2612d7",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/field.html",
+        "path_type": "hardlink",
+        "sha256": "a309cca9cd94353bfe94c88ac16f12bc1b6cc1bc38b5405b17dbcdc5276b528f",
+        "sha256_in_prefix": "a309cca9cd94353bfe94c88ac16f12bc1b6cc1bc38b5405b17dbcdc5276b528f",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/field.strict.html",
+        "path_type": "hardlink",
+        "sha256": "8da4f6cb0449ca74a78f08dcfa0ce17a389c8c05babad6dd5697e7d677a77c0e",
+        "sha256_in_prefix": "8da4f6cb0449ca74a78f08dcfa0ce17a389c8c05babad6dd5697e7d677a77c0e",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/layout/baseinput.html",
+        "path_type": "hardlink",
+        "sha256": "f0ff4da8f3f780078d9a94005a0f984ea9fc825ae0a1901a7bb62acf3f3f89be",
+        "sha256_in_prefix": "f0ff4da8f3f780078d9a94005a0f984ea9fc825ae0a1901a7bb62acf3f3f89be",
+        "size_in_bytes": 448
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/layout/buttonholder.html",
+        "path_type": "hardlink",
+        "sha256": "1e2cdffef3231a37ccb67465221202d3540cb8e0ae9a564229c046e75f1de26f",
+        "sha256_in_prefix": "1e2cdffef3231a37ccb67465221202d3540cb8e0ae9a564229c046e75f1de26f",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/layout/column.html",
+        "path_type": "hardlink",
+        "sha256": "706793bad973cee54a2e1ba579b03323ad1cd2e3effc99aa85e9d209acaeb47a",
+        "sha256_in_prefix": "706793bad973cee54a2e1ba579b03323ad1cd2e3effc99aa85e9d209acaeb47a",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/layout/div.html",
+        "path_type": "hardlink",
+        "sha256": "6098002319362148ac1307bf29af5696f33d61e1b2a387a5395914922fe5794f",
+        "sha256_in_prefix": "6098002319362148ac1307bf29af5696f33d61e1b2a387a5395914922fe5794f",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/layout/fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "625fe4197398b25e4e8f3c2ff19e6c62054e0ecc306a556d8f1ebaea2de2cdce",
+        "sha256_in_prefix": "625fe4197398b25e4e8f3c2ff19e6c62054e0ecc306a556d8f1ebaea2de2cdce",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/layout/multifield.html",
+        "path_type": "hardlink",
+        "sha256": "ddf942c0049dd31c3621c36acdfb7f3d375a034d26517762844d99e056f668a3",
+        "sha256_in_prefix": "ddf942c0049dd31c3621c36acdfb7f3d375a034d26517762844d99e056f668a3",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/layout/row.html",
+        "path_type": "hardlink",
+        "sha256": "bb1c782191ef0710842b6b6132ee36db6813911a80a0702678dcc06ef45a0d92",
+        "sha256_in_prefix": "bb1c782191ef0710842b6b6132ee36db6813911a80a0702678dcc06ef45a0d92",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/multifield.html",
+        "path_type": "hardlink",
+        "sha256": "9e17088b4b86b41a36a7146e86ddd48d0bbaf2e74fe0d530badfeb49b8172a9f",
+        "sha256_in_prefix": "9e17088b4b86b41a36a7146e86ddd48d0bbaf2e74fe0d530badfeb49b8172a9f",
+        "size_in_bytes": 723
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/uni_form.html",
+        "path_type": "hardlink",
+        "sha256": "713f334742950eab30a71a3569f5d65652dcfacd17454a3da2e1a1dba4f20a08",
+        "sha256_in_prefix": "713f334742950eab30a71a3569f5d65652dcfacd17454a3da2e1a1dba4f20a08",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/uni_formset.html",
+        "path_type": "hardlink",
+        "sha256": "7ecc2cb3f30ac3d11d38b308de53668a39865443ababd62228291361d2dca596",
+        "sha256_in_prefix": "7ecc2cb3f30ac3d11d38b308de53668a39865443ababd62228291361d2dca596",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/whole_uni_form.html",
+        "path_type": "hardlink",
+        "sha256": "b569d6c266e8334956ec8172209d9f4deee21961dcd483920d5806c08c30676d",
+        "sha256_in_prefix": "b569d6c266e8334956ec8172209d9f4deee21961dcd483920d5806c08c30676d",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "site-packages/crispy_forms/templates/uni_form/whole_uni_formset.html",
+        "path_type": "hardlink",
+        "sha256": "c687f68125797e227371acd368d972d5e1da15dfba257f70832068e5d2914ac0",
+        "sha256_in_prefix": "c687f68125797e227371acd368d972d5e1da15dfba257f70832068e5d2914ac0",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "site-packages/crispy_forms/templatetags/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/crispy_forms/templatetags/crispy_forms_field.py",
+        "path_type": "hardlink",
+        "sha256": "87a8a0694614b71c93b97165eeb902eb27419513a86ffe4bc743b264a899757b",
+        "sha256_in_prefix": "87a8a0694614b71c93b97165eeb902eb27419513a86ffe4bc743b264a899757b",
+        "size_in_bytes": 6281
+      },
+      {
+        "_path": "site-packages/crispy_forms/templatetags/crispy_forms_filters.py",
+        "path_type": "hardlink",
+        "sha256": "24b5f52d4d01e0ca352c32e7d8f148609a9863b770f0629513261554f45196c8",
+        "sha256_in_prefix": "24b5f52d4d01e0ca352c32e7d8f148609a9863b770f0629513261554f45196c8",
+        "size_in_bytes": 3674
+      },
+      {
+        "_path": "site-packages/crispy_forms/templatetags/crispy_forms_tags.py",
+        "path_type": "hardlink",
+        "sha256": "d0b0644f33c96620d85b1aa80741f1568753f9dc9afb99b4528fee508121c586",
+        "sha256_in_prefix": "d0b0644f33c96620d85b1aa80741f1568753f9dc9afb99b4528fee508121c586",
+        "size_in_bytes": 10384
+      },
+      {
+        "_path": "site-packages/crispy_forms/templatetags/crispy_forms_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d3b79905c8d1c8fd48d8a74f5cb5b47b5ec8cc77df8b8b8f50b24a1b539f76c9",
+        "sha256_in_prefix": "d3b79905c8d1c8fd48d8a74f5cb5b47b5ec8cc77df8b8b8f50b24a1b539f76c9",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "65474ed860e72676c9f6f2f815392826bc19648e8a3d28a7376f3e8fdbc1aa4f",
+        "sha256_in_prefix": "65474ed860e72676c9f6f2f815392826bc19648e8a3d28a7376f3e8fdbc1aa4f",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/forms.py",
+        "path_type": "hardlink",
+        "sha256": "0711c7ceda066b2a99054992c506c4566f4f811b86e289beba50b9d3233291cf",
+        "sha256_in_prefix": "0711c7ceda066b2a99054992c506c4566f4f811b86e289beba50b9d3233291cf",
+        "size_in_bytes": 6011
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/results/bootstrap4/file_field/clearable_file_field.html",
+        "path_type": "hardlink",
+        "sha256": "de350cb5c42826dec5361d42b245c84c7cf82ec30161ba0d4d13823abb205d9a",
+        "sha256_in_prefix": "de350cb5c42826dec5361d42b245c84c7cf82ec30161ba0d4d13823abb205d9a",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/results/bootstrap4/file_field/clearable_file_field_custom_class.html",
+        "path_type": "hardlink",
+        "sha256": "12a8d72557ccc592501e3381b2561c31dc36e1f454eaf500b687ea6c2c657543",
+        "sha256_in_prefix": "12a8d72557ccc592501e3381b2561c31dc36e1f454eaf500b687ea6c2c657543",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/results/bootstrap4/file_field/clearable_file_field_custom_control.html",
+        "path_type": "hardlink",
+        "sha256": "a4340525231edbdfcff0ec5b713d82a9ba2d2690d4516ec532b9822aa81b84da",
+        "sha256_in_prefix": "a4340525231edbdfcff0ec5b713d82a9ba2d2690d4516ec532b9822aa81b84da",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/results/bootstrap4/file_field/file_field.html",
+        "path_type": "hardlink",
+        "sha256": "a34a38205788dc3405e0774f2c997797b8ce031e0d28cc7de579adaf7b2b8b8e",
+        "sha256_in_prefix": "a34a38205788dc3405e0774f2c997797b8ce031e0d28cc7de579adaf7b2b8b8e",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/results/bootstrap4/file_field/file_field_custom_class.html",
+        "path_type": "hardlink",
+        "sha256": "e9dce04e76ea368304c5c7e7f525ce145de8617ca90414eeddc43500610bdbc4",
+        "sha256_in_prefix": "e9dce04e76ea368304c5c7e7f525ce145de8617ca90414eeddc43500610bdbc4",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/results/bootstrap4/file_field/file_field_custom_control.html",
+        "path_type": "hardlink",
+        "sha256": "1b44dffb62b482177992446deeee317ed2bdd74b91c493ac84f20cd9fa62db23",
+        "sha256_in_prefix": "1b44dffb62b482177992446deeee317ed2bdd74b91c493ac84f20cd9fa62db23",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/results/utils_test.html",
+        "path_type": "hardlink",
+        "sha256": "bee5178ea478d8c0655f020302633e7652bb7ef94d81df9c0623c8a7dd929c76",
+        "sha256_in_prefix": "bee5178ea478d8c0655f020302633e7652bb7ef94d81df9c0623c8a7dd929c76",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/templates/crispy_render_template.html",
+        "path_type": "hardlink",
+        "sha256": "689b25a8daa622da87a92cc4c5a02b2a8dedc9645d3d97ac23c3b706beb324af",
+        "sha256_in_prefix": "689b25a8daa622da87a92cc4c5a02b2a8dedc9645d3d97ac23c3b706beb324af",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/templates/custom_field_template.html",
+        "path_type": "hardlink",
+        "sha256": "b43bca854dac7bd4c29ef87e012ac7f51b5bafbbdb15b2e80c4c920d5caa96a1",
+        "sha256_in_prefix": "b43bca854dac7bd4c29ef87e012ac7f51b5bafbbdb15b2e80c4c920d5caa96a1",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/templates/custom_form_template.html",
+        "path_type": "hardlink",
+        "sha256": "f36c47ada0078570e6facbf5599bf8140a34dd74c532af337224141e1e4836be",
+        "sha256_in_prefix": "f36c47ada0078570e6facbf5599bf8140a34dd74c532af337224141e1e4836be",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/templates/custom_form_template_with_context.html",
+        "path_type": "hardlink",
+        "sha256": "e8ae89341f9d7bfc40096395022c74cae23ff5dbf9bb61fade8ba367979abcf9",
+        "sha256_in_prefix": "e8ae89341f9d7bfc40096395022c74cae23ff5dbf9bb61fade8ba367979abcf9",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/test_dynamic_api.py",
+        "path_type": "hardlink",
+        "sha256": "231ce9f610a5bbfbfeadd9cf0211aad7e68622e56727c2eb59aded73d66810ab",
+        "sha256_in_prefix": "231ce9f610a5bbfbfeadd9cf0211aad7e68622e56727c2eb59aded73d66810ab",
+        "size_in_bytes": 12614
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/test_form_helper.py",
+        "path_type": "hardlink",
+        "sha256": "b37fa9c7e37691974505f35fe825c4c3b37f42ab5bc92c67efc5524f8acc1ffb",
+        "sha256_in_prefix": "b37fa9c7e37691974505f35fe825c4c3b37f42ab5bc92c67efc5524f8acc1ffb",
+        "size_in_bytes": 29599
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/test_layout.py",
+        "path_type": "hardlink",
+        "sha256": "a33068e1fa80bf6e1d1f4c7302ada077aafe65793d7385a9da8a6b15c3fcf2e4",
+        "sha256_in_prefix": "a33068e1fa80bf6e1d1f4c7302ada077aafe65793d7385a9da8a6b15c3fcf2e4",
+        "size_in_bytes": 22392
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/test_layout_objects.py",
+        "path_type": "hardlink",
+        "sha256": "bcea580f3f0879a59ca61b56823562cd5249922734db6d9a048a2ca39cf1cb25",
+        "sha256_in_prefix": "bcea580f3f0879a59ca61b56823562cd5249922734db6d9a048a2ca39cf1cb25",
+        "size_in_bytes": 19267
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/test_settings.py",
+        "path_type": "hardlink",
+        "sha256": "918ccbbf944f268d81919a3a733609cf7122a5e579feb9762e28b5e719e10ce6",
+        "sha256_in_prefix": "918ccbbf944f268d81919a3a733609cf7122a5e579feb9762e28b5e719e10ce6",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/test_tags.py",
+        "path_type": "hardlink",
+        "sha256": "e0466ba3c0f2b679274a2e16f027ff49a5d592389350c82410df36cac945f62f",
+        "sha256_in_prefix": "e0466ba3c0f2b679274a2e16f027ff49a5d592389350c82410df36cac945f62f",
+        "size_in_bytes": 6908
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "2e4c4f10ae46674e9e5a6161b399a0c9041d78959bce5768dfbf996ae5a4ec27",
+        "sha256_in_prefix": "2e4c4f10ae46674e9e5a6161b399a0c9041d78959bce5768dfbf996ae5a4ec27",
+        "size_in_bytes": 3026
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/urls.py",
+        "path_type": "hardlink",
+        "sha256": "5308217edfff51ebd9a2cd98fb87027c8e58feb08e04e5a8b77d6d59c8ead1ff",
+        "sha256_in_prefix": "5308217edfff51ebd9a2cd98fb87027c8e58feb08e04e5a8b77d6d59c8ead1ff",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "site-packages/crispy_forms/tests/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b3505f13fbd1e940475d53cfd513e21ea0e1983cf3c17843ef52d744c9ddf301",
+        "sha256_in_prefix": "b3505f13fbd1e940475d53cfd513e21ea0e1983cf3c17843ef52d744c9ddf301",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "site-packages/crispy_forms/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0f644b0d58d24a891e4ef3ff72b4dbe43f7487ebf957d67f7791acc5bd101282",
+        "sha256_in_prefix": "0f644b0d58d24a891e4ef3ff72b4dbe43f7487ebf957d67f7791acc5bd101282",
+        "size_in_bytes": 6976
+      },
+      {
+        "_path": "site-packages/django_crispy_forms-1.11.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/django_crispy_forms-1.11.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc2c970be9da3dc839e53914d4801859c7d2dcad035596bb09f21f195deddaf5",
+        "sha256_in_prefix": "dc2c970be9da3dc839e53914d4801859c7d2dcad035596bb09f21f195deddaf5",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "site-packages/django_crispy_forms-1.11.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9a296729ec6a7765309c23069bd655245131b6e4e861cadc51ade17023506b43",
+        "sha256_in_prefix": "9a296729ec6a7765309c23069bd655245131b6e4e861cadc51ade17023506b43",
+        "size_in_bytes": 4703
+      },
+      {
+        "_path": "site-packages/django_crispy_forms-1.11.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a2e800a80c4a28f9f0ba42a26cbec2f7a44fe8a429e73ac724d47bd5208f9442",
+        "sha256_in_prefix": "a2e800a80c4a28f9f0ba42a26cbec2f7a44fe8a429e73ac724d47bd5208f9442",
+        "size_in_bytes": 20261
+      },
+      {
+        "_path": "site-packages/django_crispy_forms-1.11.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/django_crispy_forms-1.11.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/django_crispy_forms-1.11.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5197fa9901c17a58edf8ea43ebd28b5c8b58599f9378365970244951e86ddbda",
+        "sha256_in_prefix": "5197fa9901c17a58edf8ea43ebd28b5c8b58599f9378365970244951e86ddbda",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/django_crispy_forms-1.11.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a426d84ffa55cc7911dd62a11928f307721a3485688e32f3bb32ee0d8b043295",
+        "sha256_in_prefix": "a426d84ffa55cc7911dd62a11928f307721a3485688e32f3bb32ee0d8b043295",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/__pycache__/bootstrap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/__pycache__/helper.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/__pycache__/layout.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/__pycache__/layout_slice.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/templatetags/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_field.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_filters.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_tags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/templatetags/__pycache__/crispy_forms_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/conftest.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/forms.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/test_dynamic_api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/test_form_helper.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/test_layout.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/test_layout_objects.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/test_settings.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/test_tags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/test_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/urls.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/tests/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/crispy_forms/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "django-crispy-forms",
+  "sha256": "f3645faa661c7a691927ad01d3ed1fc94fd45c57b277b88d9ba0b8f7b12f8cc9",
+  "size": 61061,
+  "subdir": "noarch",
+  "timestamp": 1616364052013,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/django-crispy-forms-1.11.2-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.11.2"
+}
