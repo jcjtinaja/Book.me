@@ -1,4 +1,5 @@
 # Bookme: A Full-Stack application for scheduling appointments.
+### You may view the application here (until 2021 September 16 only): http://jcjtinaja.pythonanywhere.com/
 
 Back-end: Django Framework
 Front-end: HTML, CSS, Vanilla JavaScript
