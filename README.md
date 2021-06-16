@@ -11,7 +11,7 @@ Functionalities:
   * Name of patient
   * Comments
  
- - User functions:
+- User functions:
   * Create new appointments
   * Edit existing appointments
   * Delete existing appointments
